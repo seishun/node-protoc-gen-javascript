@@ -1,0 +1,23 @@
+{
+  "name": "protoc-gen-javascript",
+  "version": "1.0.0",
+  "description": "Node.js port of the JavaScript protoc code generator",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seishun/node-protoc-gen-javascript.git"
+  },
+  "author": "Nikolai Vavilov <vvnicholas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seishun/node-protoc-gen-javascript/issues"
+  },
+  "homepage": "https://github.com/seishun/node-protoc-gen-javascript#readme",
+  "dependencies": {
+    "google-protobuf": "^3.12.4",
+    "protoc-plugin": "github:seishun/node-protoc-plugin"
+  }
+}
